@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(27, 20, 87);
+    box-sizing: border-box;
+    color: #fff;
+    height: 1vh;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 15px 15px;
+    font-size: 14px;
+    text-align: center;
+
+}
+nav{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+nav h1{
+    float: right;
+    color: #fff;
+    padding: 2px 100px;
+}
+
+nav a:hover{
+    color: red
+}
+
+.title {
+    color: aliceblue;
+    text-align: center;
+}
+.title h1{
+    padding-top: 70px;
+    text-decoration: underline;
+}
+
+
+
+#intro {
+    margin-top: 30px;
+    font-size: large;
+}
+
+.image1, .image2{
+    display: inline-block;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+.images-slide{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+/* Understanding Crypto Airdrop */
+.under-c{
+    font-size: 30px;
+    text-align: center;
+}
+
+.under-p{
+    font-size: 20px;
+}
+
+.two-column-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100PX
+
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.762);
+    margin-top: 100px;
+    width: 100%;
+    color:  rgba(23, 5, 90, 0.762)
+}
+
+footer p, a{
+    margin-top: 5px;
+    padding-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 20px;
+    color:  rgba(23, 5, 90, 0.762);
+    text-decoration: none;
+   
+}
+
+footer h3{
+    text-align: center;
+    text-decoration: underline ;
+    color: rgb(169, 140, 11);
+
+}
+
+.social-container ul{
+    padding: 0;
+    text-align: center;
+}
+
+.social-container li{
+    display: inline;
+    list-style: none;
+    width: 15%;
+    padding: 5px;
+  
+}
+
+.social-container li img{
+    width: 2.5em;
+}
+
+
+

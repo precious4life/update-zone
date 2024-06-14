@@ -1,0 +1,85 @@
+@media screen and (max-width: 750px) 
+{   
+
+    nav a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 5px 5px;
+        margin: 3px 4px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .image1, .image2{
+        display: block;
+        border-radius: 20px;
+        opacity: 0.5;
+        width: 100%;
+        margin-top: 5px;
+    }
+        
+    .images-slide{
+        display: block;
+        justify-content: space-around;
+        padding-top: 25px;
+        margin: 10px 5px;
+    }
+
+    .two-column-layout{
+        display: inline;
+        font-size: 12px;
+        }
+
+    #intro {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    nav h1{
+        float: right;
+        color: #fff;
+        font-size: 20px;
+        justify-self: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .title h1{
+        font-size: 40px;
+        padding-top: 150px;
+    }
+
+    footer{
+        background-color: rgba(240, 240, 240, 0.836);
+        margin-top: 50px;
+        width: 100%;
+        color: #ca1616;
+    }
+    
+    footer p, a{
+        margin-top: 5px;
+        padding-top: 5px;
+        margin-left: 10px;
+        text-align: center;
+    
+       
+    }
+    footer h3{
+        padding-top: 20px;
+        text-align: center;
+       
+        color: rgb(180, 126, 11);
+    
+    }
+    
+    
+    footer a:hover{
+        background-color: bisque;
+        border: 2px solid rgb(181, 66, 66);
+       
+        
+    
+    }
+        
+    }
+    
+    
